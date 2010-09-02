@@ -1,0 +1,34 @@
+NAME
+    JSON::JOM::Plugins::JsonT - transform a JOM structure with JsonT
+
+DESCRIPTION
+    This JOM plugin adds the following method to JOM objects and arrays:
+
+    *   "transform($jsont)" - transforms the node using JsonT, returning a
+        string.
+
+    *   "transform_tojom($jsont)" - as "transform", but parses the result as
+        JSON.
+
+    *   "transform_replace($jsont)" - as "transform_tojom", and replaces the
+        node in its parent structure.
+
+    "transform_replace" cannot be called on root nodes.
+
+BUGS
+    Please report any bugs to <http://rt.cpan.org/>.
+
+SEE ALSO
+    JSON::JOM, JSON::JOM::Plugins.
+
+    JSON::T.
+
+AUTHOR
+    Toby Inkster <tobyink@cpan.org>.
+
+COPYRIGHT
+    Copyright 2010 Toby Inkster
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
