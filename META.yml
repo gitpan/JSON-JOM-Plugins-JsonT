@@ -8,25 +8,29 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.95'
+generated_by: 'Module::Install version 1.02'
+keywords: []
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
+module_name: JSON::JOM::Plugins::JsonT
 name: JSON-JOM-Plugins-JsonT
 no_index:
   directory:
+    - examples
     - inc
     - t
 requires:
   Carp: 0
-  JSON::JOM: 0.003
+  JSON::JOM: 0.500
   JSON::T: 0.100
-  common::sense: 0
-  perl: 5.8.0
+  Object::AUTHORITY: 0
+  Scalar::Util: 0
+  perl: 5.10.0
 resources:
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=JSON-JOM-Plugins-JsonT
-  homepage: http://search.cpan.org/dist/JSON-JOM-Plugins-JsonT/
+  homepage: https://metacpan.org/release/JSON-JOM-Plugins-JsonT
   license: http://dev.perl.org/licenses/
-  repository: http://goddamn.co.uk/viewvc/perlmods/JSON-JOM-Plugins-JsonT/
-version: 0.001
+  repository: https://bitbucket.org/tobyink/p5-json-jom-plugins-jsont
+version: 0.002
